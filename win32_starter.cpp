@@ -183,7 +183,7 @@ int main (int argc, char *argv[])
     startfile = bufferstart;
     // remove filename from buffer
     *file = 0;
-    printf("startfile %s\n", startfile);
+    //printf("startfile %s\n", startfile);
   }
   SetCurrentDirectory(buffer);
 
